@@ -1,0 +1,21 @@
+{
+    "name": "@vankosoft/game-platform",
+    "version": "0.1.0",
+    "description": "Game Platform",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iatanasov77/game-platform.git"
+    },
+    "keywords": [
+        "online games"
+    ],
+    "author": "iatanasov77",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/iatanasov77/game-platform/issues"
+    },
+    "homepage": "https://github.com/iatanasov77/game-platform#readme"
+}
