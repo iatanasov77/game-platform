@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "esModuleInterop": true,
+        "outDir": "./dist/cjs",
+        "rootDir": "./src",
+        "strict": false,
+        "declaration": true,
+        
+        "paths": {
+            "rollup/parseAst": ["./node_modules/rollup/dist/parseAst"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
