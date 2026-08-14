@@ -1,6 +1,6 @@
-import IGameRoom from './GameRoomInterface';
+import { IGameRoom } from './GameRoomInterface';
 
-interface IPlayer
+export interface IPlayer
 {
     rooms: IGameRoom[];
     
@@ -9,5 +9,3 @@ interface IPlayer
     name: string;
     connected: any;
 }
-
-export default IPlayer;

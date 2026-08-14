@@ -1,4 +1,4 @@
-interface IGamePlayer
+export interface IGamePlayer
 {
     id: string;
         
@@ -6,5 +6,3 @@ interface IGamePlayer
         name: string;
         type: string;
 }
-
-export default IGamePlayer;
