@@ -1,3 +1,9 @@
+0.2.1	|	Release date: **14.08.2026**
+============================================
+* New Features:
+  - Export Some Other Interfaces.
+
+
 0.2.0	|	Release date: **14.08.2026**
 ============================================
 * New Features:
