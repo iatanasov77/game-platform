@@ -1,11 +1,11 @@
-﻿import GameDto from '../Core/gameDto';
-import BoardGamePlayerDto from './playerDto';
-import PlayerColor from './playerColor';
-import PointDto from './pointDto';
-import MoveDto from './moveDto';
-import ChessSquareDto from './chessSquareDto';
+﻿import { GameDto } from '../Core/gameDto';
+import { BoardGamePlayerDto } from './playerDto';
+import { PlayerColor } from './playerColor';
+import { PointDto } from './pointDto';
+import { MoveDto } from './moveDto';
+import { ChessSquareDto } from './chessSquareDto';
 
-interface BoardGameDto extends GameDto {
+export interface BoardGameDto extends GameDto {
     blackPlayer: BoardGamePlayerDto;
     whitePlayer: BoardGamePlayerDto;
     currentPlayer: PlayerColor;
@@ -19,5 +19,3 @@ interface BoardGameDto extends GameDto {
     lastDoubler?: PlayerColor;
     stake: number;
 }
-
-export default BoardGameDto;

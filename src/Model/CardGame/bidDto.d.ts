@@ -1,7 +1,7 @@
-import PlayerPosition from './playerPosition';
-import BidType from './bidType';
+import { PlayerPosition } from './playerPosition';
+import { BidType } from './bidType';
 
-interface BidDto
+export interface BidDto
 {
     Player: PlayerPosition;
     KontraPlayer?: PlayerPosition;
@@ -10,5 +10,3 @@ interface BidDto
     Type: BidType;
     NextBids: BidDto[];
 }
-
-export default BidDto;

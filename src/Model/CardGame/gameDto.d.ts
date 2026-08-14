@@ -1,9 +1,9 @@
-﻿import GameDto from '../Core/gameDto';
-import CardGamePlayerDto from './playerDto';
-import PlayerPosition from './playerPosition';
-import CardGameTeam from './cardGameTeam'
+﻿import { GameDto } from '../Core/gameDto';
+import { CardGamePlayerDto } from './playerDto';
+import { PlayerPosition } from './playerPosition';
+import { CardGameTeam } from './cardGameTeam'
 
-interface CardGameDto extends GameDto {
+export interface CardGameDto extends GameDto {
     players: CardGamePlayerDto[];
     validBids: any;
     validCards: any;
@@ -23,5 +23,3 @@ interface CardGameDto extends GameDto {
     MyCards: any;
     Bids: any;
 }
-
-export default CardGameDto;

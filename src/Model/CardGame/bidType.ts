@@ -1,4 +1,4 @@
-enum BidType
+export enum BidType
 {
     Pass,
     Clubs,
@@ -11,5 +11,3 @@ enum BidType
     Double,
     ReDouble
 }
-
-export default BidType;

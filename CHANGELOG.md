@@ -1,3 +1,9 @@
+0.2.0	|	Release date: **14.08.2026**
+============================================
+* New Features:
+  - Make Interfaces and Enums are successfuly exported.
+
+
 0.1.3	|	Release date: **14.08.2026**
 ============================================
 * New Features:

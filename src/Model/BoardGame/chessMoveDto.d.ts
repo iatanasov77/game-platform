@@ -1,8 +1,8 @@
-import PlayerColor from './playerColor';
-import ChessMoveType from './chessMoveType';
-import ChessPieceType from './chessPieceType';
+import { PlayerColor } from './playerColor';
+import { ChessMoveType } from './chessMoveType';
+import { ChessPieceType } from './chessPieceType';
 
-interface ChessMoveDto
+export interface ChessMoveDto
 {
     color: PlayerColor;
     type: ChessMoveType;
@@ -22,5 +22,3 @@ interface ChessMoveDto
     animate: boolean;
     hint: boolean;
 }
-
-export default ChessMoveDto;

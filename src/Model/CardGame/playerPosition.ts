@@ -1,4 +1,4 @@
-enum PlayerPosition
+export enum PlayerPosition
 {
     south,
     east,
@@ -6,5 +6,3 @@ enum PlayerPosition
     west,
     neither
 }
-
-export default PlayerPosition;

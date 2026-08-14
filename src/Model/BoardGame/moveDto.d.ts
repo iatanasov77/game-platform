@@ -1,6 +1,6 @@
-﻿import PlayerColor from './playerColor';
+﻿import { PlayerColor } from './playerColor';
 
-interface MoveDto
+export interface MoveDto
 {
     color: PlayerColor;
     from: number;
@@ -9,5 +9,3 @@ interface MoveDto
     animate: boolean;
     hint: boolean;
 }
-
-export default MoveDto;
