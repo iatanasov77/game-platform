@@ -1,4 +1,4 @@
-enum ContractBridgeCardType
+export enum ContractBridgeCardType
 {
     Two,
     Three,
@@ -14,5 +14,3 @@ enum ContractBridgeCardType
     King,
     Ace,
 }
-
-export default ContractBridgeCardType;

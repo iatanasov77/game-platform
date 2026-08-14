@@ -1,4 +1,4 @@
-enum ChessPieceType
+export enum ChessPieceType
 {
     King,
     Queen,
@@ -7,5 +7,3 @@ enum ChessPieceType
     Knight,
     Pawn
 }
-
-export default ChessPieceType;

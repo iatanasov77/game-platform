@@ -1,4 +1,4 @@
-interface BridgeBeloteScoreDto
+export interface BridgeBeloteScoreDto
 {
     contract: any;
     SouthNorthPoints: number;
@@ -6,5 +6,3 @@ interface BridgeBeloteScoreDto
     EastWestPoints: number;
     EastWestTotalInRoundPoints: number;
 }
-
-export default BridgeBeloteScoreDto;

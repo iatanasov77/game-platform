@@ -1,4 +1,4 @@
-﻿interface UserDto {
+﻿export interface UserDto {
     id: string;
     name: string;
     email: string;
@@ -19,5 +19,3 @@
     acceptedLanguages: string[];
     muteIntro: boolean;
 }
-
-export default UserDto;

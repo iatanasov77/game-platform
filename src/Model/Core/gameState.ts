@@ -1,4 +1,4 @@
-﻿enum GameState
+﻿export enum GameState
 {
     opponentConnectWaiting,
     firstThrow,
@@ -15,5 +15,3 @@
     firstRound,
     roundEnded
 }
-
-export default GameState;

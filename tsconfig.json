@@ -3,7 +3,6 @@
         "target": "ES2022",
         "module": "ESNext",
         "moduleResolution": "bundler",
-        "esModuleInterop": true,
         "outDir": "./dist/cjs",
         "rootDir": "./src",
         "strict": false,

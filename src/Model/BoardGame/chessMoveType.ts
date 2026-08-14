@@ -1,4 +1,4 @@
-enum ChessMoveType
+export enum ChessMoveType
 {
     NormalMove,
     CaputreMove,
@@ -6,5 +6,3 @@ enum ChessMoveType
     PromotionMove,
     EnPassant
 }
-
-export default ChessMoveType;
