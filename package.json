@@ -1,6 +1,6 @@
 {
     "name": "@vankosoft/game-platform",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Game Platform",
     "repository": {
         "type": "git",
@@ -36,5 +36,8 @@
     },
     "dependencies": {
         
+    },
+    "resolutions": {
+        "@types/minimatch": "5.1.2"
     }
 }
