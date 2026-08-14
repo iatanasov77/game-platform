@@ -5,6 +5,9 @@ import { IGame } from "./Model/GameInterface";
 import { IGamePlay } from "./Model/GamePlayInterface";
 import { IPlayer } from "./Model/PlayerInterface";
 import { IGameRoom } from "./Model/GameRoomInterface";
+import { CardGameAnnounceSymbolModel } from "./Model/CardGameAnnounceSymbolModel";
+import { IGamePlayer } from "./Model/GamePlayerModel";
+//import { IGameRoom } from "./Model/GameRoomModel";
 
 /**
  * Core Game Interfaces
@@ -62,6 +65,8 @@ export {
     IGamePlay,
     IPlayer,
     IGameRoom,
+    CardGameAnnounceSymbolModel,
+    IGamePlayer,
     
     // Core Game Interfaces
     ConnectionDto,
