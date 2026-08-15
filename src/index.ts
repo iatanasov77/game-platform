@@ -35,6 +35,11 @@ export { Toplist } from "./Type/toplist";
 export { ToplistResult } from "./Type/toplistResult";
 export { CardGameAnnounceSymbolModel } from "./Type/CardGameAnnounceSymbolModel";
 
+export { IAuth } from "./Type/auth";
+export { IMercureAction } from "./Type/mercure-action";
+export { ISignedUrlResponse } from "./Type/signed-url-response";
+export { IToggleSoundMuteResponse } from "./Type/toggle-sound-mute-response";
+
 /**
  * DTO
  */
