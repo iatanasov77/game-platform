@@ -1,5 +1,5 @@
-import { PlayerPosition } from './playerPosition';
-import { BidType } from './bidType';
+import { PlayerPosition } from '../../CardGame/playerPosition';
+import { BidType } from '../../CardGame/bidType';
 
 export interface BidDto
 {

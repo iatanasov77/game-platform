@@ -1,5 +1,5 @@
-﻿import { PlayerColor } from '../BoardGame/playerColor';
-import { PlayerPosition } from '../CardGame/playerPosition';
+﻿import { PlayerColor } from '../../BoardGame/playerColor';
+import { PlayerPosition } from '../../CardGame/playerPosition';
 
 export interface GameCookieDto
 {

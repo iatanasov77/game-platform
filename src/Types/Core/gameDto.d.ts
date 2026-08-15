@@ -1,4 +1,4 @@
-﻿import { GameState } from './gameState';
+﻿import { GameState } from '../../gameState';
 
 export interface GameDto {
     id: string;

@@ -1,7 +1,7 @@
 ﻿import { GameDto } from '../Core/gameDto';
 import { CardGamePlayerDto } from './playerDto';
-import { PlayerPosition } from './playerPosition';
-import { CardGameTeam } from './cardGameTeam'
+import { PlayerPosition } from '../../CardGame/playerPosition';
+import { CardGameTeam } from '../../CardGame/cardGameTeam'
 
 export interface CardGameDto extends GameDto {
     players: CardGamePlayerDto[];

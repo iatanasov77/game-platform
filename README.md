@@ -1,4 +1,4 @@
-# game-platform
+# VankoSoft Game Platform
 
 ## I. Build
 
