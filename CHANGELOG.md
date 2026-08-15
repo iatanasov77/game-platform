@@ -1,3 +1,10 @@
+0.3.0	|	Release date: **15.08.2026**
+============================================
+* New Features:
+  - Refactoring of All Types.
+  - Update Package Version.
+
+
 0.2.1	|	Release date: **14.08.2026**
 ============================================
 * New Features:
