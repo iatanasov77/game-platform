@@ -1,71 +1,77 @@
+import { GameState } from "./gameState";
+
+// Board Games
+import { PlayerColor } from "./BoardGame/playerColor";
+import { ChessPieceType } from "./BoardGame/chessPieceType";
+import { ChessMoveType } from "./BoardGame/chessMoveType";
+
+// Card Games
+import { PlayerPosition } from "./CardGame/playerPosition";
+import { CardGameTeam } from "./CardGame/cardGameTeam";
+import { BridgeBeloteCardType } from "./CardGame/bridgeBeloteCardType";
+import { ContractBridgeCardType } from "./CardGame/contractBridgeCardType";
+import { CardSuit } from "./CardGame/cardSuit";
+import { BidType } from "./CardGame/bidType";
+import { AnnounceType } from "./CardGame/announceType";
+
 /**
  * Global Interfaces
  */
-import { IGame } from "./Model/GameInterface";
-import { IGamePlay } from "./Model/GamePlayInterface";
-import { IPlayer } from "./Model/PlayerInterface";
-import { IGameRoom } from "./Model/GameRoomInterface";
-import { CardGameAnnounceSymbolModel } from "./Model/CardGameAnnounceSymbolModel";
-import { IGamePlayer } from "./Model/GamePlayerModel";
-//import { IGameRoom } from "./Model/GameRoomModel";
+import { IGame } from "./Types/GameInterface";
+import { IGamePlay } from "./Types/GamePlayInterface";
+import { IPlayer } from "./Types/PlayerInterface";
+import { IGameRoom } from "./Types/GameRoomInterface";
+import { IGamePlayer } from "./Types/GamePlayerModel";
+//import { IGameRoom } from "./Types/GameRoomModel";
 
 /**
  * Core Game Interfaces
  */
-import { ConnectionDto } from "./Model/Core/connectionDto";
-import { ErrorReportDto } from "./Model/Core/errorReportDto";
-import { UserDto } from "./Model/Core/userDto";
-import { GameState } from "./Model/Core/gameState";
-import { GameDto } from "./Model/Core/gameDto";
-import { GameCookieDto } from "./Model/Core/gameCookieDto";
-import { PlayerDto } from "./Model/Core/playerDto";
-import { NewScoreDto } from "./Model/Core/newScoreDto";
+import { ConnectionDto } from "./Types/Core/connectionDto";
+import { ErrorReportDto } from "./Types/Core/errorReportDto";
+import { UserDto } from "./Types/Core/userDto";
+import { GameDto } from "./Types/Core/gameDto";
+import { GameCookieDto } from "./Types/Core/gameCookieDto";
+import { PlayerDto } from "./Types/Core/playerDto";
+import { NewScoreDto } from "./Types/Core/newScoreDto";
 
 /**
  * Board Game Interfaces
  */
-import { Toplist } from "./Model/BoardGame/toplist";
-import { ToplistResult } from "./Model/BoardGame/toplistResult";
-import { BoardGameDto } from "./Model/BoardGame/gameDto";
-import { MoveDto } from "./Model/BoardGame/moveDto";
-import { BoardGamePlayerDto } from "./Model/BoardGame/playerDto";
-import { PlayerColor } from "./Model/BoardGame/playerColor";
-import { PointDto } from "./Model/BoardGame/pointDto";
-import { CheckerDto } from "./Model/BoardGame/checkerDto";
-import { DiceDto } from "./Model/BoardGame/diceDto";
-import { ChessMoveDto } from "./Model/BoardGame/chessMoveDto";
-import { ChessMoveType } from "./Model/BoardGame/chessMoveType";
-import { ChessPieceDto } from "./Model/BoardGame/chessPieceDto";
-import { ChessPieceType } from "./Model/BoardGame/chessPieceType";
-import { ChessSquareDto } from "./Model/BoardGame/chessSquareDto";
+import { Toplist } from "./Types/BoardGame/toplist";
+import { ToplistResult } from "./Types/BoardGame/toplistResult";
+import { BoardGameDto } from "./Types/BoardGame/gameDto";
+import { MoveDto } from "./Types/BoardGame/moveDto";
+import { BoardGamePlayerDto } from "./Types/BoardGame/playerDto";
+import { PointDto } from "./Types/BoardGame/pointDto";
+import { CheckerDto } from "./Types/BoardGame/checkerDto";
+import { DiceDto } from "./Types/BoardGame/diceDto";
+import { ChessMoveDto } from "./Types/BoardGame/chessMoveDto";
+import { ChessPieceDto } from "./Types/BoardGame/chessPieceDto";
+import { ChessSquareDto } from "./Types/BoardGame/chessSquareDto";
 
 /**
  * Card Game Interfaces
  */
-import { CardGameDto } from "./Model/CardGame/gameDto";
-import { PlayerPosition } from "./Model/CardGame/playerPosition";
-import { BidType } from "./Model/CardGame/bidType";
-import { CardSuit } from "./Model/CardGame/cardSuit";
-import { BridgeBeloteCardType } from "./Model/CardGame/bridgeBeloteCardType";
-import { ContractBridgeCardType } from "./Model/CardGame/contractBridgeCardType";
-import { CardGameTeam } from "./Model/CardGame/cardGameTeam";
-import { CardGamePlayerDto } from "./Model/CardGame/playerDto";
-import { CardDto } from "./Model/CardGame/cardDto";
-import { BidDto } from "./Model/CardGame/bidDto";
-import { BridgeBeloteScoreDto } from "./Model/CardGame/bridgeBeloteScoreDto";
-import { AnnounceDto } from "./Model/CardGame/announceDto";
-import { AnnounceType } from "./Model/CardGame/announceType";
+import { CardGameDto } from "./Types/CardGame/gameDto";
+import { CardGamePlayerDto } from "./Types/CardGame/playerDto";
+import { CardDto } from "./Types/CardGame/cardDto";
+import { BidDto } from "./Types/CardGame/bidDto";
+import { BridgeBeloteScoreDto } from "./Types/CardGame/bridgeBeloteScoreDto";
+import { AnnounceDto } from "./Types/CardGame/announceDto";
+import { CardGameAnnounceSymbolModel } from "./Types/CardGame/CardGameAnnounceSymbolModel";
 
 /* ***************************************************************************************
 Export aws-cdk-helpers to the world
 *************************************************************************************** */
 export {
+    
+
     // Global Interfaces
     IGame,
     IGamePlay,
     IPlayer,
     IGameRoom,
-    CardGameAnnounceSymbolModel,
     IGamePlayer,
     
     // Core Game Interfaces
@@ -107,5 +113,6 @@ export {
     BidDto,
     BridgeBeloteScoreDto,
     AnnounceDto,
-    AnnounceType
+    AnnounceType,
+    CardGameAnnounceSymbolModel,
 };

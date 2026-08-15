@@ -1,4 +1,4 @@
-﻿import { PlayerColor } from './playerColor';
+﻿import { PlayerColor } from '../../BoardGame/playerColor';
 
 export interface MoveDto
 {

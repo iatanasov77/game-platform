@@ -1,5 +1,5 @@
-import { PlayerPosition } from './playerPosition';
-import { AnnounceType } from './announceType';
+import { PlayerPosition } from '../../CardGame/playerPosition';
+import { AnnounceType } from '../../CardGame/announceType';
 import { CardDto } from './cardDto';
 
 export interface AnnounceDto
