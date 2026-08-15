@@ -1,6 +1,7 @@
-﻿import { GameDto } from '../Core/gameDto';
+﻿import { PlayerColor } from '../../Enum/playerColor';
+
+import { GameDto } from '../gameDto';
 import { BoardGamePlayerDto } from './playerDto';
-import { PlayerColor } from '../../BoardGame/playerColor';
 import { PointDto } from './pointDto';
 import { MoveDto } from './moveDto';
 import { ChessSquareDto } from './chessSquareDto';

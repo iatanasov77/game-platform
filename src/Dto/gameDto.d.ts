@@ -1,4 +1,4 @@
-﻿import { GameState } from '../../gameState';
+﻿import { GameState } from '../Enum/gameState';
 
 export interface GameDto {
     id: string;

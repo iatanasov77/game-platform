@@ -1,4 +1,4 @@
-﻿import { PlayerColor } from '../../BoardGame/playerColor';
+﻿import { PlayerColor } from '../../Enum/playerColor';
 
 export interface MoveDto
 {

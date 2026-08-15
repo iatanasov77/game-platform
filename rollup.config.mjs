@@ -9,7 +9,9 @@ const typescriptOptions = {
 const copyOptions = {
     targets: [
         //{ src: 'src/Types/*', dest: 'dist/esm/Types' },
-        { src: 'src/Types/*', dest: 'dist/cjs/Types' },
+        
+        { src: 'src/Model/*', dest: 'dist/cjs/Model' },
+        { src: 'src/Dto/*', dest: 'dist/cjs/Dto' },
     ]
 };
 

@@ -1,4 +1,4 @@
-import { BidType } from '../../CardGame/bidType';
+import { BidType } from '../Enum/bidType';
 
 export interface CardGameAnnounceSymbolModel
 {

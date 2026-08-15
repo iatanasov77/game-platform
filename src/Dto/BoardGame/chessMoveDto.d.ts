@@ -1,6 +1,6 @@
-import { PlayerColor } from '../../BoardGame/playerColor';
-import { ChessMoveType } from '../../BoardGame/chessMoveType';
-import { ChessPieceType } from '../../BoardGame/chessPieceType';
+import { PlayerColor } from '../../Enum/playerColor';
+import { ChessMoveType } from '../../Enum/chessMoveType';
+import { ChessPieceType } from '../../Enum/chessPieceType';
 
 export interface ChessMoveDto
 {

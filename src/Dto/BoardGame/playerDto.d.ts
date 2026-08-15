@@ -1,5 +1,5 @@
-﻿import { PlayerDto } from '../Core/playerDto';
-import { PlayerColor } from '../../BoardGame/playerColor';
+﻿import { PlayerColor } from '../../Enum/playerColor';
+import { PlayerDto } from '../playerDto';
 
 export interface BoardGamePlayerDto extends PlayerDto {
     playerColor: PlayerColor;
