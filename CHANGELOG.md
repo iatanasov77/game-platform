@@ -1,3 +1,13 @@
+1.0.0	|	Release date: **16.08.2026**
+============================================
+* New Features:
+  - Refactoring of All Types
+  - Add Models.
+  - Add More Types.
+  - Add More DTO Intefaces.
+  - Add Some Utils Components.
+
+
 0.3.0	|	Release date: **15.08.2026**
 ============================================
 * New Features:
