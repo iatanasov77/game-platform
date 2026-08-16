@@ -4,13 +4,17 @@
  ***************************************************************************************
  */
 
+export * from "./game.variant";
+export * from "./Utils/helper";
+export * from "./Utils/keys";
+export * from "./Utils/status-message";
+
 /**
  * Enum Types
  */
 export * from "./Enum/gameState";
 export * from "./Enum/actionNames";
 export * from "./Enum/messageType";
-export * from "./Enum/status-message";
 
 // Board Games
 export * from "./Enum/playerColor";
