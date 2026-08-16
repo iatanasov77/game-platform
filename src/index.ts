@@ -8,6 +8,9 @@
  * Enum Types
  */
 export * from "./Enum/gameState";
+export * from "./Enum/actionNames";
+export * from "./Enum/messageType";
+export * from "./Enum/status-message";
 
 // Board Games
 export * from "./Enum/playerColor";
@@ -43,6 +46,13 @@ export { IToggleSoundMuteResponse } from "./Type/toggle-sound-mute-response";
 /**
  * DTO
  */
+export { FeedbackDto } from './Dto/feedback/feedbackDto';
+export { PlayedGameListDto } from './Dto/admin/playedGameListDto';
+export { MessageDto } from './Dto/message/messageDto';
+export { ChatMessageDto } from './Dto/chat/chatMessageDto';
+export { ChatUsersDto } from './Dto/chat/joinedChatDto';
+export { LeftChatDto } from './Dto/chat/leftChatDto';
+
 export { ConnectionDto } from "./Dto/connectionDto";
 export { ErrorReportDto } from "./Dto/errorReportDto";
 export { UserDto } from "./Dto/userDto";
@@ -67,6 +77,47 @@ export { CardDto } from "./Dto/CardGame/cardDto";
 export { BidDto } from "./Dto/CardGame/bidDto";
 export { BridgeBeloteScoreDto } from "./Dto/CardGame/bridgeBeloteScoreDto";
 export { AnnounceDto } from "./Dto/CardGame/announceDto";
+
+export { ActionDto } from './Dto/Actions/actionDto';
+export { MovesMadeActionDto } from './Dto/Actions/movesMadeActionDto';
+export { OpponentMoveActionDto } from './Dto/Actions/opponentMoveActionDto';
+export { UndoActionDto } from './Dto/Actions/undoActionDto';
+export { StartGamePlayActionDto } from './Dto/Actions/startGamePlayActionDto';
+export { ServerWasTerminatedActionDto } from './Dto/Actions/serverWasTerminatedActionDto';
+
+export { DoublingActionDto } from './Dto/Actions/doublingActionDto';
+export { HintMovesActionDto } from './Dto/Actions/hintMovesActionDto';
+export { DicesRolledActionDto } from './Dto/Actions/dicesRolledActionDto';
+export { BoardGameCreatedActionDto } from './Dto/Actions/boardGameCreatedActionDto';
+export { BoardGameEndedActionDto } from './Dto/Actions/boardGameEndedActionDto';
+export { ConnectionInfoActionDto } from './Dto/Actions/connectionInfoActionDto';
+export { BoardGameRestoreActionDto } from './Dto/Actions/boardGameRestoreActionDto';
+export { RolledActionDto } from './Dto/Actions/rolledActionDto';
+
+export { CardGameCreatedActionDto } from './Dto/Actions/cardGameCreatedActionDto';
+export { CardGameEndedActionDto } from './Dto/Actions/cardGameEndedActionDto';
+export { CardGameRestoreActionDto } from './Dto/Actions/cardGameRestoreActionDto';
+export { BiddingStartedActionDto } from './Dto/Actions/biddingStartedActionDto';
+export { BidMadeActionDto } from './Dto/Actions/bidMadeActionDto';
+export { OpponentBidsActionDto } from './Dto/Actions/opponentBidsActionDto';
+export { PlayingStartedActionDto } from './Dto/Actions/playingStartedActionDto';
+export { PlayCardActionDto } from './Dto/Actions/playCardActionDto';
+export { OpponentPlayCardActionDto } from './Dto/Actions/opponentPlayCardActionDto';
+export { TrickEndedActionDto } from './Dto/Actions/trickEndedActionDto';
+export { RoundEndedActionDto } from './Dto/Actions/roundEndedActionDto';
+export { StartNewRoundActionDto } from './Dto/Actions/startNewRoundActionDto';
+export { AnnounceMadeActionDto } from './Dto/Actions/announceMadeActionDto';
+export { StartNewGameActionDto } from './Dto/Actions/startNewGameActionDto';
+
+export { ChessGameStartedActionDto } from './Dto/Actions/chessGameStartedActionDto';
+export { ChessMoveMadeActionDto } from './Dto/Actions/chessMoveMadeActionDto';
+export { ChessOpponentMoveActionDto } from './Dto/Actions/chessOpponentMoveActionDto';
+export { ChessInvalidMoveMadeActionDto } from './Dto/Actions/chessInvalidMoveMadeActionDto';
+
+export { GameStringRequest } from './Dto/editor/gameStringRequest';
+export { GameStringResponseDto } from './Dto/editor/gameStringResponseDto';
+
+export { InviteResponseDto } from './Dto/rest/inviteResponseDto';
 
 /**
  * Models

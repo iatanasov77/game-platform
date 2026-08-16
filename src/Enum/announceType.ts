@@ -1,6 +1,3 @@
-//export type AnnounceType = "Belot" | "SequenceOf3" | "SequenceOf4" | "SequenceOf5";
-
-/*  */
 export enum AnnounceType
 {
     Belot,
@@ -14,5 +11,3 @@ export enum AnnounceType
     FourNines,
     FourJacks,
 }
-
-//export = AnnounceType;
