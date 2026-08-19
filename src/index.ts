@@ -133,7 +133,7 @@ export { CheckerArea } from "./Model/checker-area";
 export { CheckerDrag } from "./Model/checker-drag";
 export { MoveAnimation } from "./Model/move-animation";
 export { Point } from "./Model/point";
-export { GetAnnounceSymbols, GetAnnounceSymbol } from "./Model/announce";
+export { GetTrumps, GetAnnounceSymbols, GetAnnounceSymbol } from "./Model/announce";
 export { Card } from "./Model/card";
 export { CardArea } from "./Model/card-area";
 export { CardDrag } from "./Model/card-drag";

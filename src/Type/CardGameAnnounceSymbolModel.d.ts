@@ -6,4 +6,5 @@ export interface CardGameAnnounceSymbolModel
     key: string;
     tooltip: string;
     value: string;
+    htmlEntity: string;
 }
