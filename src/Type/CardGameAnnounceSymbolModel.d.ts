@@ -1,8 +1,8 @@
-import { BidType } from '../Enum/bidType';
+import { BidTrump } from '../Enum/bidTrump';
 
 export interface CardGameAnnounceSymbolModel
 {
-    id: BidType;
+    id: BidTrump;
     key: string;
     tooltip: string;
     value: string;

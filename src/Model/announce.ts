@@ -1,9 +1,9 @@
 import { CardGameAnnounceSymbolModel } from '../Type/CardGameAnnounceSymbolModel';
-import { BidType } from '../Enum/bidType';
+import { BidTrump } from '../Enum/bidTrump';
 
 class AnnounceClover implements CardGameAnnounceSymbolModel
 {
-    id = BidType.Clubs;
+    id = BidTrump.Clubs;
     key = "btnClover";
     tooltip = "Clover";
     value = '<i class="fi fi-sr-club"></i>';
@@ -11,7 +11,7 @@ class AnnounceClover implements CardGameAnnounceSymbolModel
 
 class AnnounceDiamond implements CardGameAnnounceSymbolModel
 {
-    id = BidType.Diamonds;
+    id = BidTrump.Diamonds;
     key = "btnDiamond";
     tooltip = "Diamond";
     value = '<i class="fi fi-sr-card-diamond"></i>';
@@ -19,7 +19,7 @@ class AnnounceDiamond implements CardGameAnnounceSymbolModel
 
 class AnnounceHeart implements CardGameAnnounceSymbolModel
 {
-    id = BidType.Hearts;
+    id = BidTrump.Hearts;
     key = "btnHeart";
     tooltip = "Heart";
     value = '<i class="fi fi-sr-heart"></i>';
@@ -27,7 +27,7 @@ class AnnounceHeart implements CardGameAnnounceSymbolModel
 
 class AnnounceSpade implements CardGameAnnounceSymbolModel
 {
-    id = BidType.Spades;
+    id = BidTrump.Spades;
     key = "btnSpade";
     tooltip = "Spade";
     value = '<i class="fi fi-sr-spade"></i>';
@@ -35,7 +35,7 @@ class AnnounceSpade implements CardGameAnnounceSymbolModel
 
 class AnnounceBezKoz implements CardGameAnnounceSymbolModel
 {
-    id = BidType.NoTrumps;
+    id = BidTrump.NoTrumps;
     key = "btnBezKoz";
     tooltip = "Bez Koz";
     value = 'a';
@@ -43,7 +43,7 @@ class AnnounceBezKoz implements CardGameAnnounceSymbolModel
 
 class AnnounceVsichkoKoz implements CardGameAnnounceSymbolModel
 {
-    id = BidType.AllTrumps;
+    id = BidTrump.AllTrumps;
     key = "btnVsichkoKoz";
     tooltip = "Vsichko Koz";
     value = 'j';
@@ -51,7 +51,7 @@ class AnnounceVsichkoKoz implements CardGameAnnounceSymbolModel
 
 class AnnounceKontra implements CardGameAnnounceSymbolModel
 {
-    id = BidType.Double;
+    id = BidTrump.Double;
     key = "btnKontra";
     tooltip = "Kontra";
     value = 'kr';
@@ -59,7 +59,7 @@ class AnnounceKontra implements CardGameAnnounceSymbolModel
 
 class AnnounceReKontra implements CardGameAnnounceSymbolModel
 {
-    id = BidType.ReDouble;
+    id = BidTrump.ReDouble;
     key = "btnReKontra";
     tooltip = "Re-Kontra";
     value = 're-kr';
@@ -67,7 +67,7 @@ class AnnounceReKontra implements CardGameAnnounceSymbolModel
 
 class AnnouncePass implements CardGameAnnounceSymbolModel
 {
-    id = BidType.Pass;
+    id = BidTrump.Pass;
     key = "btnPass";
     tooltip = "Pass";
     value = '<span class="announce-button">pass</span>';
@@ -90,7 +90,7 @@ export function GetAnnounceSymbols(): Array<CardGameAnnounceSymbolModel>
     return AnnounceSymbols;
 }
 
-export function GetAnnounceSymbol( symbolId: BidType )
+export function GetAnnounceSymbol( symbolId: BidTrump )
 {
     return AnnounceSymbols.find( ( x: any ) => x.id === symbolId );
 }

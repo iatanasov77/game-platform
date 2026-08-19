@@ -27,7 +27,7 @@ export * from "./Enum/cardGameTeam";
 export * from "./Enum/bridgeBeloteCardType";
 export * from "./Enum/contractBridgeCardType";
 export * from "./Enum/cardSuit";
-export * from "./Enum/bidType";
+export * from "./Enum/bidTrump";
 export * from "./Enum/announceType";
 
 /**
@@ -79,6 +79,8 @@ export { CardGameDto } from "./Dto/CardGame/gameDto";
 export { CardGamePlayerDto } from "./Dto/CardGame/playerDto";
 export { CardDto } from "./Dto/CardGame/cardDto";
 export { BidDto } from "./Dto/CardGame/bidDto";
+export { BridgeBeloteBidDto } from "./Dto/CardGame/bridgeBeloteBidDto";
+export { ContractBridgeBidDto } from "./Dto/CardGame/contractBridgeBidDto";
 export { BridgeBeloteScoreDto } from "./Dto/CardGame/bridgeBeloteScoreDto";
 export { AnnounceDto } from "./Dto/CardGame/announceDto";
 

@@ -1,5 +1,5 @@
 import { PlayerPosition } from '../../Enum/playerPosition';
-import { BidType } from '../../Enum/bidType';
+import { BidTrump } from '../../Enum/bidTrump';
 
 export interface BidDto
 {
@@ -7,6 +7,6 @@ export interface BidDto
     KontraPlayer?: PlayerPosition;
     ReKontraPlayer?: PlayerPosition;
     
-    Type: BidType;
+    Trump: BidTrump;
     NextBids: BidDto[];
 }
