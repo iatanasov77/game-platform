@@ -5,6 +5,7 @@ export class Pile
 {
     static drawAsPile(
         cx: CanvasRenderingContext2D | null,
+        cardImagesPath: string,
         pile: CardDto[],
         boardWidth: number,
         boardHeight: number,
@@ -34,7 +35,7 @@ export class Pile
             }
             
             image = new Image( cardWidth, cardHeight );
-            image.src = `/build/gameplatform-velzonsaas-theme/images/CardGame/Cards/BridgeBelote/${pile[c].cardIndex}.png`;
+            image.src = `${cardImagesPath}/${pile[c].cardIndex}.png`;
             
             cx.save();
             cx.translate( cardX, cardY );
@@ -56,6 +57,7 @@ export class Pile
     
     static drawAsRound(
         cx: CanvasRenderingContext2D | null,
+        cardImagesPath: string,
         pile: CardDto[],
         boardWidth: number,
         boardHeight: number,
@@ -85,7 +87,7 @@ export class Pile
             }
             
             image = new Image( cardWidth, cardHeight );
-            image.src = `/build/gameplatform-velzonsaas-theme/images/CardGame/Cards/BridgeBelote/${pile[c].cardIndex}.png`;
+            image.src = `${cardImagesPath}/${pile[c].cardIndex}.png`;
             
             cx.save();
             cx.translate( cardX, cardY );
