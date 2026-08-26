@@ -27,7 +27,7 @@ export * from "./Enum/cardGameTeam";
 export * from "./Enum/bridgeBeloteCardType";
 export * from "./Enum/contractBridgeCardType";
 export * from "./Enum/cardSuit";
-export * from "./Enum/bidType";
+export * from "./Enum/bidTrump";
 export * from "./Enum/announceType";
 
 /**
@@ -79,6 +79,8 @@ export { CardGameDto } from "./Dto/CardGame/gameDto";
 export { CardGamePlayerDto } from "./Dto/CardGame/playerDto";
 export { CardDto } from "./Dto/CardGame/cardDto";
 export { BidDto } from "./Dto/CardGame/bidDto";
+export { BridgeBeloteBidDto } from "./Dto/CardGame/bridgeBeloteBidDto";
+export { ContractBridgeBidDto } from "./Dto/CardGame/contractBridgeBidDto";
 export { BridgeBeloteScoreDto } from "./Dto/CardGame/bridgeBeloteScoreDto";
 export { AnnounceDto } from "./Dto/CardGame/announceDto";
 
@@ -107,6 +109,7 @@ export { OpponentBidsActionDto } from './Dto/Actions/opponentBidsActionDto';
 export { PlayingStartedActionDto } from './Dto/Actions/playingStartedActionDto';
 export { PlayCardActionDto } from './Dto/Actions/playCardActionDto';
 export { OpponentPlayCardActionDto } from './Dto/Actions/opponentPlayCardActionDto';
+export { DummyFaceupActionDto } from './Dto/Actions/dummyFaceupActionDto';
 export { TrickEndedActionDto } from './Dto/Actions/trickEndedActionDto';
 export { RoundEndedActionDto } from './Dto/Actions/roundEndedActionDto';
 export { StartNewRoundActionDto } from './Dto/Actions/startNewRoundActionDto';
@@ -131,7 +134,7 @@ export { CheckerArea } from "./Model/checker-area";
 export { CheckerDrag } from "./Model/checker-drag";
 export { MoveAnimation } from "./Model/move-animation";
 export { Point } from "./Model/point";
-export { GetAnnounceSymbols, GetAnnounceSymbol } from "./Model/announce";
+export { GetTrumps, GetAnnounceSymbols, GetAnnounceSymbol } from "./Model/announce";
 export { Card } from "./Model/card";
 export { CardArea } from "./Model/card-area";
 export { CardDrag } from "./Model/card-drag";

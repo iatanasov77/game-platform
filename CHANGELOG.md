@@ -1,3 +1,14 @@
+1.1.0	|	Release date: **26.08.2026**
+============================================
+* New Features:
+  - Create ContractBridgeBidDto Interface.
+  - Update NPM Package Version.
+  - Add a New Method into Announce Model.
+  - Add Card Images.
+  - Update Package Version.
+  - Face Up Dummy Player Cards.
+
+
 1.0.0	|	Release date: **16.08.2026**
 ============================================
 * New Features:

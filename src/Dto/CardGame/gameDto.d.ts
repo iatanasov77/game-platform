@@ -22,4 +22,6 @@ export interface CardGameDto extends GameDto {
     
     MyCards: any;
     Bids: any;
+    
+    LastBid: boolean;
 }

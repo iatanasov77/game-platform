@@ -22,6 +22,7 @@
     playingStarted,
     playCard,
     opponentPlayCard,
+    dummyFaceup,
     trickEnded,
     roundEnded,
     startNewRound,

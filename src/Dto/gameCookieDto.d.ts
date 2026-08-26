@@ -8,6 +8,7 @@ export interface GameCookieDto
     
     color?: PlayerColor;
     position?: PlayerPosition;
+    dummyPlayer?: PlayerPosition;
     
     roomSelected: boolean;
 }
