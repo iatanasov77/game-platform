@@ -8,5 +8,6 @@ export interface BidDto
     ReKontraPlayer?: PlayerPosition;
     
     Trump: BidTrump;
+    LastBid: boolean;
     NextBids: BidDto[];
 }

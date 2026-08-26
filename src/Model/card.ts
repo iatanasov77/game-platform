@@ -17,6 +17,7 @@ export class Card
         angle: number,
         theme: IThemes,
         position: PlayerPosition,
+        isDummy: boolean,
         highLighted: boolean,
         debugCards: boolean
     ): void {
@@ -27,7 +28,7 @@ export class Card
         const { x, y } = point;
         const image = new Image( width, height );
         
-        if ( position === PlayerPosition.south || debugCards ) {
+        if ( position === PlayerPosition.south || isDummy || debugCards ) {
             let imgSrc = `${cardImagesPath}/${card.cardIndex}.png`;
             
             image.src = imgSrc;

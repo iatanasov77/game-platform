@@ -109,6 +109,7 @@ export { OpponentBidsActionDto } from './Dto/Actions/opponentBidsActionDto';
 export { PlayingStartedActionDto } from './Dto/Actions/playingStartedActionDto';
 export { PlayCardActionDto } from './Dto/Actions/playCardActionDto';
 export { OpponentPlayCardActionDto } from './Dto/Actions/opponentPlayCardActionDto';
+export { DummyFaceupActionDto } from './Dto/Actions/dummyFaceupActionDto';
 export { TrickEndedActionDto } from './Dto/Actions/trickEndedActionDto';
 export { RoundEndedActionDto } from './Dto/Actions/roundEndedActionDto';
 export { StartNewRoundActionDto } from './Dto/Actions/startNewRoundActionDto';
