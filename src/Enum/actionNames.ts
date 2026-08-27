@@ -23,6 +23,7 @@
     playCard,
     opponentPlayCard,
     dummyFaceup,
+    dummyPlayCard,
     trickEnded,
     roundEnded,
     startNewRound,
