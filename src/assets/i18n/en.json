@@ -310,6 +310,10 @@
         "counter": "Counter",
         "recounter": "Recounter",
         "pass": "Pass",
-        "bid": "Bid"
+        "bid": "Bid",
+        
+        "youe_turn": "It's youe turn.",
+        "highest_bid": "Highest bid is",
+        "countered": "countered"
     }
 }

@@ -1,6 +1,8 @@
 import { CardSuit } from '../Enum/cardSuit';
 import { BridgeBeloteCardType } from '../Enum/bridgeBeloteCardType';
 import { ContractBridgeCardType } from '../Enum/contractBridgeCardType';
+import { PlayerPosition } from '../Enum/playerPosition';
+import { BidTrump } from '../Enum/bidTrump';
 
 export class Helper
 {
@@ -105,6 +107,52 @@ export class Helper
                 break;
             default:
                 throw new Error( `Invalid Card Type ${type}` );
+        }
+    }
+    
+    public static cardgamePlayerPosition( position: PlayerPosition ): string
+    {
+        switch( position ) {
+            case PlayerPosition.south:
+                return 'South';
+                break;
+            case PlayerPosition.east:
+                return 'East';
+                break;
+            case PlayerPosition.north:
+                return 'North';
+                break;
+            case PlayerPosition.west:
+                return 'West';
+                break;
+            default:
+                return 'Neither';
+        }
+    }
+    
+    public static shortBidTrump( trump: BidTrump ): string
+    {
+        switch( trump ) {
+            case BidTrump.Clubs:
+                return 'C';
+                break;
+            case BidTrump.Diamonds:
+                return 'D';
+                break;
+            case BidTrump.Hearts:
+                return 'H';
+                break;
+            case BidTrump.Spades:
+                return 'S';
+                break;
+            case BidTrump.NoTrumps:
+                return 'BE';
+                break;
+            case BidTrump.AllTrumps:
+                return 'J';
+                break;
+            default:
+                return 'Neither';
         }
     }
 }
