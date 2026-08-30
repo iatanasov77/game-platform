@@ -11,6 +11,18 @@ export class Helper
         return new Promise( ( resolve ) => setTimeout( resolve, ms ) );
     }
     
+    public static splitAtN( arrayToSplit: any[], n: number )
+    {
+        const output = [], i = 0;
+        
+        while ( arrayToSplit.length ) {
+            output.push( arrayToSplit.slice( i == 0 ? 0 : i + 1, i + n ) );
+            arrayToSplit = arrayToSplit.slice( i + n );
+        }
+        
+        return output;
+    }
+    
     public static cardSuit( suit: CardSuit ): string
     {
         switch( suit ) {
