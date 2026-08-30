@@ -8,6 +8,7 @@ import { CardDto } from '../CardGame/cardDto';
 export interface OpponentBidsActionDto extends ActionDto {
     bid: BidDto;
     validBids: BidDto[];
+    bidHistory: BidDto[];
     nextPlayer: PlayerPosition;
     playState: GameState;
     

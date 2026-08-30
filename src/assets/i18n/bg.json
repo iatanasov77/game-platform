@@ -302,6 +302,7 @@
     "contract-bridge-auction": {
         "auction": "Auction",
         
+        "bid_history": "Bid History",
         "west": "West",
         "north": "North",
         "east": "East",

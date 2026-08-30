@@ -5,6 +5,11 @@
  */
 
 export * from "./game.variant";
+
+/**
+ * Utils
+ */
+export * from "./Utils/player-positions";
 export * from "./Utils/helper";
 export * from "./Utils/keys";
 export * from "./Utils/status-message";
