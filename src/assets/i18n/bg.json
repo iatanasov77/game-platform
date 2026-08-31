@@ -297,7 +297,8 @@
     },
     "card-game": {
         "kontra": "Double",
-        "rekontra": "ReDouble"
+        "rekontra": "ReDouble",
+        "my_cards": "My Cards"
     },
     "contract-bridge-auction": {
         "auction": "Auction",
