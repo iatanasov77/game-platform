@@ -1,3 +1,17 @@
+1.2.0	|	Release date: **31.08.2026**
+============================================
+* New Features:
+  - Add a DTO Websocket Action.
+  - Add I18n and Game sounds Assets.
+  - Add Some Helper Methods and Some New Translations.
+  - Add Create a Player Positions for Card Game to Can Loop Clockwize and Back.
+  - Add a New Utils Helper Method to Split Arrays.
+  - Update NPM Package Version.
+  - Improve Get AnnouceSymbol Model.
+  - Update NPM Package Version.
+  - Add Some Tranlsations and Update Minor NPM Package Version.
+
+
 1.1.0	|	Release date: **26.08.2026**
 ============================================
 * New Features:
