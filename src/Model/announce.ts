@@ -113,7 +113,7 @@ export function GetAnnounceSymbols(): Array<CardGameAnnounceSymbolModel>
     return AnnounceSymbols;
 }
 
-export function GetAnnounceSymbol( symbolId: BidTrump )
+export function GetAnnounceSymbol( symbolId: BidTrump ): CardGameAnnounceSymbolModel
 {
-    return AnnounceSymbols.find( ( x: any ) => x.id === symbolId );
+    return AnnounceSymbols.find( ( { id } ) => id === symbolId );
 }

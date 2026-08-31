@@ -7,6 +7,7 @@ export interface CardGameDto extends GameDto {
     players: CardGamePlayerDto[];
     validBids: any;
     validCards: any;
+    bidHistory: any;
     contract: any;
     
     currentPlayer: PlayerPosition;

@@ -5,6 +5,11 @@
  */
 
 export * from "./game.variant";
+
+/**
+ * Utils
+ */
+export * from "./Utils/player-positions";
 export * from "./Utils/helper";
 export * from "./Utils/keys";
 export * from "./Utils/status-message";
@@ -110,6 +115,7 @@ export { PlayingStartedActionDto } from './Dto/Actions/playingStartedActionDto';
 export { PlayCardActionDto } from './Dto/Actions/playCardActionDto';
 export { OpponentPlayCardActionDto } from './Dto/Actions/opponentPlayCardActionDto';
 export { DummyFaceupActionDto } from './Dto/Actions/dummyFaceupActionDto';
+export { DummyPlayCardActionDto } from './Dto/Actions/dummyPlayCardActionDto';
 export { TrickEndedActionDto } from './Dto/Actions/trickEndedActionDto';
 export { RoundEndedActionDto } from './Dto/Actions/roundEndedActionDto';
 export { StartNewRoundActionDto } from './Dto/Actions/startNewRoundActionDto';
