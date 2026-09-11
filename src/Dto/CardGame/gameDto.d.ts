@@ -10,8 +10,10 @@ export interface CardGameDto extends GameDto {
     bidHistory: any;
     contract: any;
     
+    DummyPlayer: PlayerPosition;
+    DummyOwner: PlayerPosition;
     currentPlayer: PlayerPosition;
-    winner: CardGameTeam;
+    
     thinkTime: number;
     
     FirstToPlayInTheRound: PlayerPosition;
@@ -20,9 +22,9 @@ export interface CardGameDto extends GameDto {
     
     SouthNorthPoints: number;
     EastWestPoints: number;
+    winner: CardGameTeam;
     
     MyCards: any;
     Bids: any;
-    
     LastBid: boolean;
 }

@@ -17,7 +17,7 @@ export class Card
         angle: number,
         theme: IThemes,
         position: PlayerPosition,
-        isDummy: boolean,
+        openCard: boolean,
         highLighted: boolean,
         debugCards: boolean
     ): void {
@@ -28,12 +28,9 @@ export class Card
         const { x, y } = point;
         const image = new Image( width, height );
         
-        if ( position === PlayerPosition.south || isDummy || debugCards ) {
-            let imgSrc = `${cardImagesPath}/${card.cardIndex}.png`;
-            
-            image.src = imgSrc;
-        } else {
-            image.src = cardBack;
+        image.src = cardBack;
+        if ( position === PlayerPosition.south || openCard || debugCards ) {
+            image.src = `${cardImagesPath}/${card.cardIndex}.png`;
         }
         
         cx.save();
