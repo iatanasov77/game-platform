@@ -5,5 +5,7 @@ import { PlayerPosition } from '../../Enum/playerPosition';
 
 export interface CardGameRestoreActionDto extends ActionDto {
     game: CardGameDto;
-    position: PlayerPosition;
+    
+    myPosition: PlayerPosition;
+    myTeamMate: PlayerPosition;
 }
