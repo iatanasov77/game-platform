@@ -225,7 +225,8 @@
     "game_board": {
         "statistics": {
             "we": "We",
-            "you": "You"
+            "you": "You",
+            "they": "They"
         },
     
         "players": {

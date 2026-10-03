@@ -1,6 +1,7 @@
-export interface BridgeBeloteScoreDto
+import { ScoreDto } from './scoreDto';
+
+export interface BridgeBeloteScoreDto extends ScoreDto
 {
-    contract: any;
     SouthNorthPoints: number;
     SouthNorthTotalInRoundPoints: number;
     EastWestPoints: number;

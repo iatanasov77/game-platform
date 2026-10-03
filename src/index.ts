@@ -87,6 +87,7 @@ export { BidDto } from "./Dto/CardGame/bidDto";
 export { BridgeBeloteBidDto } from "./Dto/CardGame/bridgeBeloteBidDto";
 export { ContractBridgeBidDto } from "./Dto/CardGame/contractBridgeBidDto";
 export { BridgeBeloteScoreDto } from "./Dto/CardGame/bridgeBeloteScoreDto";
+export { ContractBridgeScoreDto } from "./Dto/CardGame/contractBridgeScoreDto";
 export { AnnounceDto } from "./Dto/CardGame/announceDto";
 
 export { ActionDto } from './Dto/Actions/actionDto';

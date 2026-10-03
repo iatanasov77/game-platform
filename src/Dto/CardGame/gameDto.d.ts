@@ -20,8 +20,6 @@ export interface CardGameDto extends GameDto {
     RoundNumber: number;
     TrickNumber: number;
     
-    SouthNorthPoints: number;
-    EastWestPoints: number;
     winner: CardGameTeam;
     
     MyCards: any;
