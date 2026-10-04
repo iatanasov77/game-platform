@@ -62,6 +62,7 @@ export { ChatMessageDto } from './Dto/chat/chatMessageDto';
 export { ChatUsersDto } from './Dto/chat/joinedChatDto';
 export { LeftChatDto } from './Dto/chat/leftChatDto';
 
+export { TestMessageDto } from "./Dto/testMessageDto";
 export { ConnectionDto } from "./Dto/connectionDto";
 export { ErrorReportDto } from "./Dto/errorReportDto";
 export { UserDto } from "./Dto/userDto";
@@ -91,6 +92,8 @@ export { ContractBridgeScoreDto } from "./Dto/CardGame/contractBridgeScoreDto";
 export { AnnounceDto } from "./Dto/CardGame/announceDto";
 
 export { ActionDto } from './Dto/Actions/actionDto';
+export { TestMessageActionDto } from './Dto/Actions/testMessageActionDto';
+
 export { MovesMadeActionDto } from './Dto/Actions/movesMadeActionDto';
 export { OpponentMoveActionDto } from './Dto/Actions/opponentMoveActionDto';
 export { UndoActionDto } from './Dto/Actions/undoActionDto';
