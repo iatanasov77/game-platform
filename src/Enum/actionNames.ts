@@ -39,5 +39,7 @@
     openSwooleConnection,
     closeConnection,
     serverWasTerminated,
-    testMessage
+    
+    testMessage,
+    testReopenConnection
 }

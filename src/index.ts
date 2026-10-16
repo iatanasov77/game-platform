@@ -93,6 +93,7 @@ export { AnnounceDto } from "./Dto/CardGame/announceDto";
 
 export { ActionDto } from './Dto/Actions/actionDto';
 export { TestMessageActionDto } from './Dto/Actions/testMessageActionDto';
+export { TestReopenConnectionActionDto } from './Dto/Actions/testReopenConnectionActionDto';
 
 export { MovesMadeActionDto } from './Dto/Actions/movesMadeActionDto';
 export { OpponentMoveActionDto } from './Dto/Actions/opponentMoveActionDto';
