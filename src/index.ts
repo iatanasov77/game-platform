@@ -99,6 +99,7 @@ export { OpponentMoveActionDto } from './Dto/Actions/opponentMoveActionDto';
 export { UndoActionDto } from './Dto/Actions/undoActionDto';
 export { StartGamePlayActionDto } from './Dto/Actions/startGamePlayActionDto';
 export { OpenSwooleConnectionActionDto } from './Dto/Actions/openSwooleConnectionActionDto';
+export { CloseConnectionActionDto } from './Dto/Actions/closeConnectionActionDto';
 export { ServerWasTerminatedActionDto } from './Dto/Actions/serverWasTerminatedActionDto';
 
 export { DoublingActionDto } from './Dto/Actions/doublingActionDto';

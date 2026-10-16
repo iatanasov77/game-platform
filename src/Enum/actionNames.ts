@@ -37,6 +37,7 @@
     chessInvalidMoveMade,
     
     openSwooleConnection,
+    closeConnection,
     serverWasTerminated,
     testMessage
 }
