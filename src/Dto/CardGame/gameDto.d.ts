@@ -10,19 +10,19 @@ export interface CardGameDto extends GameDto {
     bidHistory: any;
     contract: any;
     
+    DummyPlayer: PlayerPosition;
+    DummyOwner: PlayerPosition;
     currentPlayer: PlayerPosition;
-    winner: CardGameTeam;
+    
     thinkTime: number;
     
     FirstToPlayInTheRound: PlayerPosition;
     RoundNumber: number;
     TrickNumber: number;
     
-    SouthNorthPoints: number;
-    EastWestPoints: number;
+    winner: CardGameTeam;
     
     MyCards: any;
     Bids: any;
-    
     LastBid: boolean;
 }

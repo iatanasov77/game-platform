@@ -1,3 +1,16 @@
+1.2.1	|	Release date: **16.10.2026**
+============================================
+* New Features:
+  - Add Some New Properties into CardGameDto .
+  - Add More Properties in GameCreated and GameRestore DTOs .
+  - Change NPM Package Version.
+  - Add BidOwner Property into BidDto
+  - Add Some New DTO Interfaces.
+  - Add a TestMessageDto Interface.
+  - Add New Action for Swoole Connection.
+  - Create New NPM Version.
+
+
 1.2.0	|	Release date: **31.08.2026**
 ============================================
 * New Features:

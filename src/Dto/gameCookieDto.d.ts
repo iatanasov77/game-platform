@@ -6,8 +6,10 @@ export interface GameCookieDto
     id: string;
     game: string;
     
-    color?: PlayerColor;
-    position?: PlayerPosition;
+    myColor?: PlayerColor;
+    
+    myPosition?: PlayerPosition;
+    myTeamMate?: PlayerPosition;
     dummyPlayer?: PlayerPosition;
     
     roomSelected: boolean;
