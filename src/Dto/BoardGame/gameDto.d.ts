@@ -6,9 +6,11 @@ import { PointDto } from './pointDto';
 import { MoveDto } from './moveDto';
 import { ChessSquareDto } from './chessSquareDto';
 
+import { BoardGamePlayersList } from './BoardGamePlayersList';
+
 export interface BoardGameDto extends GameDto {
-    blackPlayer: BoardGamePlayerDto;
-    whitePlayer: BoardGamePlayerDto;
+    players: BoardGamePlayersList;
+    
     currentPlayer: PlayerColor;
     winner: PlayerColor;
     points: PointDto[];

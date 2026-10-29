@@ -73,6 +73,7 @@ export { NewScoreDto } from "./Dto/newScoreDto";
 
 export { BoardGameDto } from "./Dto/BoardGame/gameDto";
 export { MoveDto } from "./Dto/BoardGame/moveDto";
+export { BoardGamePlayersList } from "./Dto/BoardGame/BoardGamePlayersList";
 export { BoardGamePlayerDto } from "./Dto/BoardGame/playerDto";
 export { PointDto } from "./Dto/BoardGame/pointDto";
 export { CheckerDto } from "./Dto/BoardGame/checkerDto";
@@ -154,3 +155,9 @@ export { CardDrag } from "./Model/card-drag";
 export { CardGamePlayerArea } from "./Model/card-game-player-area";
 export { Pile } from "./Model/pile";
 export * from "./Model/themes";
+
+/**
+ * SSE
+ */
+export { Topic } from "./Sse/topic";
+export { MessageData } from "./Sse/message-data";

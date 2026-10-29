@@ -3,8 +3,11 @@ import { CardGamePlayerDto } from './playerDto';
 import { PlayerPosition } from '../../Enum/playerPosition';
 import { CardGameTeam } from '../../Enum/cardGameTeam'
 
+import { CardGamePlayersList } from './CardGamePlayersList';
+
 export interface CardGameDto extends GameDto {
-    players: CardGamePlayerDto[];
+    players: CardGamePlayersList;
+    
     validBids: any;
     validCards: any;
     bidHistory: any;
