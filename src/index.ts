@@ -69,12 +69,11 @@ export { UserDto } from "./Dto/userDto";
 export { GameDto } from "./Dto/gameDto";
 export { GameCookieDto } from "./Dto/gameCookieDto";
 export { PlayerDto } from "./Dto/playerDto";
+export { GamePlayersList } from "./Dto/gamePlayersList";
 export { NewScoreDto } from "./Dto/newScoreDto";
 
 export { BoardGameDto } from "./Dto/BoardGame/gameDto";
 export { MoveDto } from "./Dto/BoardGame/moveDto";
-export { BoardGamePlayersList } from "./Dto/BoardGame/BoardGamePlayersList";
-export { BoardGamePlayerDto } from "./Dto/BoardGame/playerDto";
 export { PointDto } from "./Dto/BoardGame/pointDto";
 export { CheckerDto } from "./Dto/BoardGame/checkerDto";
 export { DiceDto } from "./Dto/BoardGame/diceDto";
@@ -83,7 +82,6 @@ export { ChessPieceDto } from "./Dto/BoardGame/chessPieceDto";
 export { ChessSquareDto } from "./Dto/BoardGame/chessSquareDto";
 
 export { CardGameDto } from "./Dto/CardGame/gameDto";
-export { CardGamePlayerDto } from "./Dto/CardGame/playerDto";
 export { CardDto } from "./Dto/CardGame/cardDto";
 export { BidDto } from "./Dto/CardGame/bidDto";
 export { BridgeBeloteBidDto } from "./Dto/CardGame/bridgeBeloteBidDto";

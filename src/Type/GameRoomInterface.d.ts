@@ -4,9 +4,16 @@ import { IPlayer } from './PlayerInterface'
 export interface IGameRoom
 {
     id: number;
-    isPlaying: boolean;
+    owner: string;
+    
+    // game: string;
     game: IGame;
+    
+    status: string;
+    isPlaying: boolean;
     slug: string;
     name: string;
+    
     players: IPlayer[];
+    teams: Array<any>;
 }

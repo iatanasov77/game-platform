@@ -1,6 +1,5 @@
 export * from "./gameDto";
 export * from "./moveDto";
-export * from "./playerDto";
 export * from "./pointDto";
 export * from "./checkerDto";
 export * from "./diceDto";

@@ -1,16 +1,11 @@
 ﻿import { PlayerColor } from '../../Enum/playerColor';
 
 import { GameDto } from '../gameDto';
-import { BoardGamePlayerDto } from './playerDto';
 import { PointDto } from './pointDto';
 import { MoveDto } from './moveDto';
 import { ChessSquareDto } from './chessSquareDto';
 
-import { BoardGamePlayersList } from './BoardGamePlayersList';
-
 export interface BoardGameDto extends GameDto {
-    players: BoardGamePlayersList;
-    
     currentPlayer: PlayerColor;
     winner: PlayerColor;
     points: PointDto[];
