@@ -72,6 +72,8 @@ export { GameCookieDto } from "./Dto/gameCookieDto";
 export { PlayerDto } from "./Dto/playerDto";
 export { GamePlayersList } from "./Dto/gamePlayersList";
 export { NewScoreDto } from "./Dto/newScoreDto";
+export { GameRoomDto } from "./Dto/gameRoomDto";
+export { MercureMessageDto } from "./Dto/mercureMessageDto";
 
 export { BoardGameDto } from "./Dto/BoardGame/gameDto";
 export { MoveDto } from "./Dto/BoardGame/moveDto";
@@ -133,6 +135,13 @@ export { ChessGameStartedActionDto } from './Dto/Actions/chessGameStartedActionD
 export { ChessMoveMadeActionDto } from './Dto/Actions/chessMoveMadeActionDto';
 export { ChessOpponentMoveActionDto } from './Dto/Actions/chessOpponentMoveActionDto';
 export { ChessInvalidMoveMadeActionDto } from './Dto/Actions/chessInvalidMoveMadeActionDto';
+
+export { CreateGameLobbyActionDto } from './Dto/Actions/createGameLobbyActionDto';
+export { GameLobbyCreatedActionDto } from './Dto/Actions/gameLobbyCreatedActionDto';
+export { JoinGameLobbyActionDto } from './Dto/Actions/joinGameLobbyActionDto';
+export { LeaveGameLobbyActionDto } from './Dto/Actions/leaveGameLobbyActionDto';
+export { MercureActionDto } from './Dto/Actions/mercureActionDto';
+export { MercureMessageActionDto } from './Dto/Actions/mercureMessageActionDto';
 
 export { GameStringRequest } from './Dto/editor/gameStringRequest';
 export { GameStringResponseDto } from './Dto/editor/gameStringResponseDto';
