@@ -19,6 +19,7 @@ export * from "./Utils/status-message";
  */
 export * from "./Enum/gameState";
 export * from "./Enum/actionNames";
+export * from "./Enum/mercureActionNames";
 export * from "./Enum/messageType";
 
 // Board Games
