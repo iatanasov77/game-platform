@@ -1,3 +1,17 @@
+1.2.2	|	Release date: **08.11.2026**
+============================================
+* New Features:
+  - Add New Action DTO.
+  - Add New Test Action DTO.
+  - Create Some SSE DTO Models.
+  - Move Game Players Array Into Base Game DTO.
+  - Add Some Needed Propertie into GameDto Interfacee.
+  - Update NPM Package Version.
+  - Add Mercure Actions Enum.
+  - Add Mercure DTO Actions.
+  - Update NPM Package Version.
+
+
 1.2.1	|	Release date: **16.10.2026**
 ============================================
 * New Features:

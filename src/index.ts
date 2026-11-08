@@ -19,6 +19,7 @@ export * from "./Utils/status-message";
  */
 export * from "./Enum/gameState";
 export * from "./Enum/actionNames";
+export * from "./Enum/mercureActionNames";
 export * from "./Enum/messageType";
 
 // Board Games
@@ -69,11 +70,13 @@ export { UserDto } from "./Dto/userDto";
 export { GameDto } from "./Dto/gameDto";
 export { GameCookieDto } from "./Dto/gameCookieDto";
 export { PlayerDto } from "./Dto/playerDto";
+export { GamePlayersList } from "./Dto/gamePlayersList";
 export { NewScoreDto } from "./Dto/newScoreDto";
+export { GameRoomDto } from "./Dto/gameRoomDto";
+export { MercureMessageDto } from "./Dto/mercureMessageDto";
 
 export { BoardGameDto } from "./Dto/BoardGame/gameDto";
 export { MoveDto } from "./Dto/BoardGame/moveDto";
-export { BoardGamePlayerDto } from "./Dto/BoardGame/playerDto";
 export { PointDto } from "./Dto/BoardGame/pointDto";
 export { CheckerDto } from "./Dto/BoardGame/checkerDto";
 export { DiceDto } from "./Dto/BoardGame/diceDto";
@@ -82,7 +85,6 @@ export { ChessPieceDto } from "./Dto/BoardGame/chessPieceDto";
 export { ChessSquareDto } from "./Dto/BoardGame/chessSquareDto";
 
 export { CardGameDto } from "./Dto/CardGame/gameDto";
-export { CardGamePlayerDto } from "./Dto/CardGame/playerDto";
 export { CardDto } from "./Dto/CardGame/cardDto";
 export { BidDto } from "./Dto/CardGame/bidDto";
 export { BridgeBeloteBidDto } from "./Dto/CardGame/bridgeBeloteBidDto";
@@ -93,12 +95,14 @@ export { AnnounceDto } from "./Dto/CardGame/announceDto";
 
 export { ActionDto } from './Dto/Actions/actionDto';
 export { TestMessageActionDto } from './Dto/Actions/testMessageActionDto';
+export { TestReopenConnectionActionDto } from './Dto/Actions/testReopenConnectionActionDto';
 
 export { MovesMadeActionDto } from './Dto/Actions/movesMadeActionDto';
 export { OpponentMoveActionDto } from './Dto/Actions/opponentMoveActionDto';
 export { UndoActionDto } from './Dto/Actions/undoActionDto';
 export { StartGamePlayActionDto } from './Dto/Actions/startGamePlayActionDto';
 export { OpenSwooleConnectionActionDto } from './Dto/Actions/openSwooleConnectionActionDto';
+export { CloseConnectionActionDto } from './Dto/Actions/closeConnectionActionDto';
 export { ServerWasTerminatedActionDto } from './Dto/Actions/serverWasTerminatedActionDto';
 
 export { DoublingActionDto } from './Dto/Actions/doublingActionDto';
@@ -132,6 +136,13 @@ export { ChessMoveMadeActionDto } from './Dto/Actions/chessMoveMadeActionDto';
 export { ChessOpponentMoveActionDto } from './Dto/Actions/chessOpponentMoveActionDto';
 export { ChessInvalidMoveMadeActionDto } from './Dto/Actions/chessInvalidMoveMadeActionDto';
 
+export { CreateGameLobbyActionDto } from './Dto/Actions/createGameLobbyActionDto';
+export { GameLobbyCreatedActionDto } from './Dto/Actions/gameLobbyCreatedActionDto';
+export { JoinGameLobbyActionDto } from './Dto/Actions/joinGameLobbyActionDto';
+export { LeaveGameLobbyActionDto } from './Dto/Actions/leaveGameLobbyActionDto';
+export { MercureActionDto } from './Dto/Actions/mercureActionDto';
+export { MercureMessageActionDto } from './Dto/Actions/mercureMessageActionDto';
+
 export { GameStringRequest } from './Dto/editor/gameStringRequest';
 export { GameStringResponseDto } from './Dto/editor/gameStringResponseDto';
 
@@ -152,3 +163,9 @@ export { CardDrag } from "./Model/card-drag";
 export { CardGamePlayerArea } from "./Model/card-game-player-area";
 export { Pile } from "./Model/pile";
 export * from "./Model/themes";
+
+/**
+ * SSE
+ */
+export { Topic } from "./Sse/topic";
+export { MessageData } from "./Sse/message-data";

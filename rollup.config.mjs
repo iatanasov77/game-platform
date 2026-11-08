@@ -11,6 +11,7 @@ const copyOptions = {
         { src: 'src/assets/*', dest: 'dist/assets' },
         { src: 'src/Type/*', dest: 'dist/cjs/Type' },
         { src: 'src/Dto/*', dest: 'dist/cjs/Dto' },
+        { src: 'src/Sse/*', dest: 'dist/cjs/Sse' },
     ]
 };
 

@@ -7,4 +7,7 @@ export interface IGame
     
     room?: any;
     deck?: any;
+    
+    maxPlayers?: any;
+    maxTeamPlayers?: any;
 }
