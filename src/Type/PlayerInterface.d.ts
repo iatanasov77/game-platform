@@ -7,5 +7,6 @@ export interface IPlayer
     id: number;
     type: string;
     name: string;
+    photoUrl: string;
     connected: any;
 }
