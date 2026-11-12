@@ -208,10 +208,20 @@
         "username": "Username",
         "password": "Password",
         "game_room_owner": "Owner",
-        "invite": "Invite",
+        "invite_south_player": "Invite South Player",
+        "invite_east_player": "Invite East Player",
+        "invite_north_player": "Invite North Player",
+        "invite_west_player": "Invite West Player",
+        "invite_black_player": "Invite Black Player",
+        "invite_white_player": "Invite White Player",
         "firend": "Firend",
         "robot": "Robot",
-        "join_here": "Join here"
+        "join_here": "Join here",
+        "message": "Message",
+        "yes": "Yes",
+        "no": "No",
+        "you_have_been_inactive": "⚠️ You have been inactive for",
+        "minute": "minute"
     },
     "forms": {
         "select_game_room": {
