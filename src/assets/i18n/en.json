@@ -221,7 +221,8 @@
         "yes": "Yes",
         "no": "No",
         "you_have_been_inactive": "⚠️ You have been inactive for",
-        "minute": "minute"
+        "minutes": "minutes",
+        "do_you_want_exit_game": "Do you want to exit game?"
     },
     "forms": {
         "select_game_room": {
