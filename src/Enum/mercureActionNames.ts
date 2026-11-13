@@ -4,5 +4,7 @@
     gameLobbyCreated,
     createGameLobby,
     joinGameLobby,
-    leaveGameLobby
+    leaveGameLobby,
+    
+    disconnectPlayer
 }
